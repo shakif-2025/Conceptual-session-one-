@@ -1,0 +1,78 @@
+/* Font family styles */
+.fira-sans-extrabold {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+/* Shared styles */
+.bg-primary {
+  background-color: rgba(198, 228, 214, 1);
+}
+.btn-primary-bg {
+  background-color: rgba(0, 106, 80, 1);
+}
+/* Header styles */
+header nav {
+  margin-bottom: 20px;
+}
+/* Navbar Styles */
+nav {
+  max-width: 1600px;
+  height: 100px;
+  margin: 24px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav h1 {
+  color: rgba(14, 14, 14, 1);
+  font-size: 32px;
+  font-weight: bold;
+}
+nav a {
+  color: rgba(0, 106, 80, 1);
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+  border: 2px solid rgba(0, 106, 80, 1);
+  border-radius: 8px;
+  padding: 15px 30px;
+  /* height: 50px;
+  width: 110px; */
+}
+
+/* Banner styles  */
+.banner {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 80px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 8px;
+}
+/* .banner-contents {
+  max-width: 48%;
+} */
+.banner-sub-title {
+  font-size: 24px;
+  font-weight: medium;
+  color: rgba(14, 14, 14, 0.5);
+}
+.banner-description {
+  font-size: 56px;
+  font-weight: bold;
+  color: rgba(14, 14, 14, 1);
+  margin-top: -20px;
+}
+.banner-contents .banner-button {
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffff;
+  padding: 17px 34px;
+  border-radius: 8px;
+  border: 0;
+}
+/* .banner-image {
+  max-width: 48%;
+} */
