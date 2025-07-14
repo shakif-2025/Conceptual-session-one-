@@ -12,14 +12,16 @@
   background-color: rgba(0, 106, 80, 1);
 }
 /* Header styles */
-header nav {
-  margin-bottom: 20px;
+#header .banner-section {
+  padding: 80px 0;
 }
 /* Navbar Styles */
-nav {
-  max-width: 1600px;
+.nav-section {
+  max-width: 1280px;
+  margin: 0 auto;
   height: 100px;
-  margin: 24px auto;
+  margin-bottom: 20px;
+  padding: 24px 160px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -37,23 +39,27 @@ nav a {
   border: 2px solid rgba(0, 106, 80, 1);
   border-radius: 8px;
   padding: 15px 30px;
+  /* Anchor tag er moddhe height with diye button banano jayna */
   /* height: 50px;
   width: 110px; */
 }
 
 /* Banner styles  */
-.banner {
-  max-width: 1400px;
+.banner-section {
+  max-width: 1280px;
   margin: 0 auto;
-  padding: 80px 100px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   border-radius: 8px;
 }
-/* .banner-contents {
+.banner-contents {
   max-width: 48%;
-} */
+}
+.banner-image {
+  max-width: 48%;
+}
+
 .banner-sub-title {
   font-size: 24px;
   font-weight: medium;
@@ -73,6 +79,43 @@ nav a {
   border-radius: 8px;
   border: 0;
 }
-/* .banner-image {
-  max-width: 48%;
-} */
+
+/* Pillars section styles */
+
+.pillars {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.pillar {
+  width: 300px;
+  padding: 12px 24px;
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+}
+.pillar-cards {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+.section-title {
+  font-size: 40px;
+  font-weight: bold;
+  line-height: auto;
+  margin-top: 80px;
+}
+
+.pillar-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+.pillar-description {
+  font-size: 16px;
+  font-weight: regular;
+}
+.pillar img {
+  width: 64px;
+  height: 64px;
+  /* margin-bottom: 24px; */
+}
