@@ -5,20 +5,34 @@
   font-style: normal;
 }
 /* Shared styles */
-.bg-primary {
-  background-color: rgba(198, 228, 214, 1);
+.alignment {
+  max-width: 1280px;
+  margin: 0 auto;
 }
 .btn-primary-bg {
   background-color: rgba(0, 106, 80, 1);
 }
+
+.card-icon-styles {
+  width: 64px;
+  height: 64px;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+.card-description {
+  font-size: 16px;
+  font-weight: 600;
+}
+
 /* Header styles */
 #header .banner-section {
   padding: 80px 0;
 }
 /* Navbar Styles */
 .nav-section {
-  max-width: 1280px;
-  margin: 0 auto;
   height: 100px;
   margin-bottom: 20px;
   padding: 24px 160px;
@@ -49,14 +63,16 @@ nav a {
   max-width: 1280px;
   margin: 0 auto;
   display: flex;
-  justify-content: space-around;
+  /* gap: 24px; */
+  justify-content: space-between;
   align-items: center;
   border-radius: 8px;
 }
 .banner-contents {
-  max-width: 48%;
+  margin-left: 70px;
 }
 .banner-image {
+  margin-right: -10px;
   max-width: 48%;
 }
 
@@ -82,10 +98,6 @@ nav a {
 
 /* Pillars section styles */
 
-.pillars {
-  max-width: 1280px;
-  margin: 0 auto;
-}
 .pillar {
   width: 300px;
   padding: 12px 24px;
@@ -106,16 +118,88 @@ nav a {
   margin-top: 80px;
 }
 
-.pillar-title {
-  font-size: 20px;
-  font-weight: bold;
+/* Vision's section styles */
+.vision-cards {
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
 }
-.pillar-description {
+.visions {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.section-description {
+  margin-bottom: 24px;
+}
+.vision-card-1,
+.vision-card-2,
+.vision-card-3 {
+  width: 410px;
+  margin-bottom: 32px;
+  padding: 12px 32px;
+  border-radius: 16px;
+}
+
+.vision-card {
+  background-color: rgba(84, 144, 245, 0.2);
+  border-radius: 16px;
+}
+.card-title {
+  margin-bottom: 24px;
+}
+.card-description {
+  margin-bottom: 32px;
+}
+.vision-card-button-1 {
+  background-color: rgba(84, 144, 245, 1);
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 11px 20px;
+  border-radius: 8px;
+  border: 0;
+}
+.vision-card-button-2 {
+  background-color: rgba(9, 161, 92, 1);
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 11px 20px;
+  border-radius: 8px;
+  border: 0;
+}
+.vision-card-button-3 {
+  background-color: rgba(255, 194, 57, 1);
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 11px 20px;
+  border-radius: 8px;
+  border: 0;
+}
+.vision-card-1 {
+  background-color: rgba(84, 144, 245, 0.2);
+}
+.vision-card-2 {
+  background-color: rgba(198, 228, 214, 1);
+}
+.vision-card-3 {
+  background-color: rgba(247, 235, 207, 1);
+}
+.Muhammad_Yunus_section {
+  padding: 48px 24px;
+}
+.Muhammad_Yunus_section h4 {
+  font-size: 20px;
+  font-weight: 700;
+  color: rgba(14, 14, 14, 0.8);
+  margin-top: -3px;
+}
+
+.Muhammad_Yunus_section small {
   font-size: 16px;
   font-weight: regular;
-}
-.pillar img {
-  width: 64px;
-  height: 64px;
-  /* margin-bottom: 24px; */
+  color: rgba(14, 14, 14, 0.6);
+  margin-top: -23px;
+  display: block;
 }
